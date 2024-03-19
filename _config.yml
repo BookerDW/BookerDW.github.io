@@ -19,10 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 02806 - Social Data Analysis and Visualization
-email: 
-- s222437@student.dtu.dk
-- s151754@student.dtu.dk
-- s240081@student.dtu.dk
+email: s222437@student.dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -36,6 +33,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
