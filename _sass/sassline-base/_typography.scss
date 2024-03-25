@@ -291,7 +291,7 @@ a {
         $baseline-shift: #{calc(($get-size / 2 * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize) + 0.00001};
         $baseline-push: #{3 - (calc(($get-size * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize) + 0.00001)};
 
-        @media screen and (min-width: calc(nth($points, $i) / 16) * 1em ) {
+        @media screen and (min-width: calc(nth($points, $i) / 16)) {
           margin-bottom: #{$baseline-push}rem;
           padding-bottom: #{$baseline-shift}rem;
         }
