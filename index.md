@@ -1,17 +1,26 @@
 ---
-title: About Alembic
+title: Analysis
 feature_text: |
   ## Analysis of suicide in San Francisco
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://github.com/BookerDW/BookerDW.github.io/blob/gh-pages/assets/transamerica-pyramid.jpg?raw=true"
+feature_image: "assets/transamerica-pyramid.jpg"
 ---
 
 "Analysis of suicide from 2003 to 2018 in San Francisco"
 
-## Elements
+## Time series
 
-### Functions
 
+### Map
+
+
+### Bokeh
+
+
+
+
+
+
+{% comment %}
 
 1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
 2. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
@@ -28,3 +37,5 @@ feature_image: "https://github.com/BookerDW/BookerDW.github.io/blob/gh-pages/ass
 - Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
 
 {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
+
+{% endcomment %}
