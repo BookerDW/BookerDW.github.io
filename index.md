@@ -3,7 +3,7 @@ title: About Alembic
 feature_text: |
   ## Analysis of suicide in San Francisco
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "blob:https://github.com/BookerDW/BookerDW.github.io/blob/gh-pages/assets/transamerica-pyramid.jpg?raw=true"
+feature_image: "https://github.com/BookerDW/BookerDW.github.io/blob/gh-pages/assets/transamerica-pyramid.jpg?raw=true"
 ---
 
 "Analysis of suicide from 2003 to 2018 in San Francisco"
