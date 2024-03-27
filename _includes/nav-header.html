@@ -1,20 +1,19 @@
 {% if site.navigation_header %}
-<nav class="nav  nav--header">
-  <ul class="list  list--nav">
-    {% for item in site.navigation_header %}
-
-      {% if item.url contains '://' %}
-        {% assign url = item.url %}
-      {% else %}
-        {% assign url = item.url | relative_url %}
-      {% endif %}
-
-      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
+<nav class="nav nav--header">
+  <ul class="list list--nav">
+    {% assign home_item = site.navigation_header | where: "title", "Home" | first %}
+    {% if home_item %}
+    {% if home_item.url contains '://' %}
+    {% assign url = home_item.url %}
+    {% else %}
+    {% assign url = home_item.url | relative_url %}
+    {% endif %}
+    <li class="item item--nav{% if home_item.url == page.url %} item--current{% endif %}">
+      <a href="{{ url }}">{{ home_item.title }}</a>
+    </li>
+    {% endif %}
   </ul>
-  <button class="button  button--nav" aria-label="Menu toggle">
+  <button class="button button--nav" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}
   </button>
 </nav>
